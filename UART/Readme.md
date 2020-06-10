@@ -1,1 +1,1 @@
-#verilog uart project
+#Verilog uart project
