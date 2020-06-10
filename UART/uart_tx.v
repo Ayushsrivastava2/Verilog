@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    21:43:47 06/09/2020 
+// Create Date:  
 // Design Name: 
 // Module Name:    uart_tx 
 // Project Name: 
@@ -16,7 +16,10 @@
 // Revision: 
 // Revision 0.01 - File Created
 // Additional Comments: 
-//
+//clocks per bit = (frequency of clocl avilable)/(baud rate)
+//for example:
+// if frequency of clock = 10Mhz, selected baud-rate = 115200
+// clk_per_bit = (10000000/115200) = 87
 //////////////////////////////////////////////////////////////////////////////////
 module uart_tx
 #(parameter clk_per_bit = 8'd100)
