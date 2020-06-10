@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    11:38:11 06/09/2020 
+// Create Date:    Year 2020
 // Design Name: 
 // Module Name:    uart_rx 
 // Project Name: 
