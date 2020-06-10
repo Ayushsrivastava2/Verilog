@@ -3,4 +3,4 @@
   ***Uart-Transmitter file*** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; => uart_rx.v <br/>
   ***Uart test-bench*** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; => uart_tb.v <br/>
   ***seperate test-bench for uart-reciever*** &emsp; &emsp; => uart_rx_tb.v <br/>
-  ***seperste test-bench for uart-transmitter*** => &ensp; uart_tx_tb.v
+  ***seperste test-bench for uart-transmitter*** &ensp; => uart_tx_tb.v
