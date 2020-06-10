@@ -26,12 +26,14 @@ reg tx_dv;
 wire op_signal;
 wire done_signal;
 
-parameter data_to_tx = 8'h69;
-parameter clk_period = 10;
-parameter clk_per_bit = 8'd100;
+parameter data_to_tx = 8'ha5;    // information to transmit
+parameter clk_period = 10;       // in nano seconds
+parameter clk_per_bit = 8'd100;  
 
-always #5 clk = ~clk;
+//clock
+always #5 clk = ~clk;               
 
+//initiating uart transmitter
 uart_tx #(clk_per_bit) init(clk,inpt_data,tx_dv,op_signal,done_signal);
 
 initial 
