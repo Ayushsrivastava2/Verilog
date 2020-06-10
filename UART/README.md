@@ -1,5 +1,5 @@
 ### Verilog UART project
-  ***Uart-Reciever file*** &emsp; &emsp; &emsp; => uart_rx.v <br/>
+  ***Uart-Reciever file*** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; => uart_rx.v <br/>
   ***Uart-Transmitter file***                    => uart_rx.v <br/>
   ***Uart test-bench***                          => uart_tb.v <br/>
   ***seperate test-bench for uart-reciever***    => uart_rx_tb.v <br/>
