@@ -1,6 +1,6 @@
 
 clear all;close all;clc;
-data=load('implemented values.txt')
+data=load('cordic_output_values.txt')
 cos_calc=data(:,1);
 sin_calc=data(:,2);
 angle=linspace(0,2*pi,360);
